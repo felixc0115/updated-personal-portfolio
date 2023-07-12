@@ -1,10 +1,11 @@
-import "./App.css";
+import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 
 function App() {
   return (
     <>
-      <div className="hero min-h-screen bg-base-200">
+      <NavBar />
+      <div className="hero min-h-screen bg-base-300">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src={require("./IMG_1469.jpg")}
@@ -22,7 +23,7 @@ function App() {
           </div>
         </div>
       </div>
-      <NavBar />
+      <Footer />
     </>
   );
 }
