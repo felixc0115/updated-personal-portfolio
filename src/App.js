@@ -8,6 +8,7 @@ import RootPage from "./pages/Root";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
+import Resume from "./pages/Resume";
 
 import personalInfo from "./data/personalnfo";
 
@@ -20,6 +21,7 @@ function App() {
         { path: "", element: <Home personalInfo={personalInfo} /> },
         { path: "about", element: <About /> },
         { path: "projects", element: <Projects /> },
+        { path: "resume", element: <Resume /> },
       ],
     },
   ]);
