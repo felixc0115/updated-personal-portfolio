@@ -1,6 +1,6 @@
 const ProjectCard = () => {
   return (
-    <div className="card w-96 bg-base-100 shadow-xl">
+    <li className="card w-96 bg-base-100 shadow-xl">
       <figure>
         <img
           src={require("../data/train-together-preview.png")}
@@ -26,7 +26,7 @@ const ProjectCard = () => {
           <div className="badge badge-outline">Tailwind</div>
         </div>
       </div>
-    </div>
+    </li>
   );
 };
 
