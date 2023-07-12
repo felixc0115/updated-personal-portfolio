@@ -6,8 +6,10 @@ const RootPage = () => {
   return (
     <div className="h-min">
       <NavBar />
-      <main>
-        <Outlet />
+      <main className="h-min">
+        <div className="sm:px-8 mt-16 sm:mt-32">
+          <Outlet />
+        </div>
       </main>
       <Footer />
     </div>
