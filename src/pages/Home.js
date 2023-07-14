@@ -1,6 +1,6 @@
 const Home = ({ personalInfo }) => {
   return (
-    <div className="hero min-h-screen base-100">
+    <div className="hero base-100">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img
           src={require("../data/IMG_1469.jpg")}

@@ -1,13 +1,14 @@
 const ProjectCard = () => {
   return (
-    <li className="card w-96 bg-base-100 shadow-xl">
+    <li className="card w-96 bg-base-100 group relative flex flex-col items-start">
       <figure>
         <img
+          className="border-8 border-indigo-600"
           src={require("../data/train-together-preview.png")}
           alt="app preview"
         />
       </figure>
-      <div className="card-body">
+      <div className="card-body p-4">
         <h2 className="card-title">
           Train Together
           <div className="badge badge-secondary">Deployed</div>
@@ -18,7 +19,7 @@ const ProjectCard = () => {
           modalities. The app allows a user to upload, explore, and save various
           exercise programs.{" "}
         </p>
-        <div className="card-actions justify-end">
+        <div className="card-actions justify-start">
           <div className="badge badge-outline">React</div>
           <div className="badge badge-outline">Express</div>
           <div className="badge badge-outline">MongoDB</div>
