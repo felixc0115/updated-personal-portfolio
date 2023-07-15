@@ -1,31 +1,24 @@
-const ProjectCard = () => {
+const ProjectCard = ({ project }) => {
   return (
-    <li className="card w-96 bg-base-100 group relative flex flex-col items-start">
+    <li className="group relative flex flex-col items-start">
       <figure>
         <img
-          className="border-8 border-indigo-600"
+          className="border-double border-8 border-stone-800"
           src={require("../data/train-together-preview.png")}
           alt="app preview"
         />
       </figure>
-      <div className="card-body p-4">
+      <div className="card-body p-1">
         <h2 className="card-title">
-          Train Together
-          <div className="badge badge-secondary">Deployed</div>
+          {project.title}
+          <div className="badge badge-secondary">{project.projectStatus}</div>
         </h2>
-        <p>
-          The TrainTogether application is a a full-stack web app aimed to
-          improve one's physical well being through stretches and other
-          modalities. The app allows a user to upload, explore, and save various
-          exercise programs.{" "}
-        </p>
         <div className="card-actions justify-start">
-          <div className="badge badge-outline">React</div>
-          <div className="badge badge-outline">Express</div>
-          <div className="badge badge-outline">MongoDB</div>
-          <div className="badge badge-outline">Redux</div>
-          <div className="badge badge-outline">Tailwind</div>
+          {project.technologies.map((technology) => (
+            <div className="badge badge-outline">{technology}</div>
+          ))}
         </div>
+        <p className="text-xl">{project.projectDescription}</p>
       </div>
     </li>
   );

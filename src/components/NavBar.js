@@ -40,7 +40,7 @@ const NavBar = () => {
           </ul>
         </div>
         <NavLink to="/" className="btn btn-ghost normal-case text-xl">
-          Felix
+          Felix<span className="loading loading-dots loading-xs"></span>
         </NavLink>
       </div>
       <div className="navbar-center hidden lg:flex">
@@ -60,7 +60,7 @@ const NavBar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <span className="loading loading-dots loading-lg"></span>
+        <span className="loading loading-infinity loading-lg"></span>{" "}
       </div>
     </div>
   );

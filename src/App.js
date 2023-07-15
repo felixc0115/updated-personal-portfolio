@@ -10,7 +10,7 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Resume from "./pages/Resume";
 
-import personalInfo from "./data/personalnfo";
+import { personalInfo } from "./data/customizablelnfo";
 
 function App() {
   const router = createBrowserRouter([

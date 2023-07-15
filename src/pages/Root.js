@@ -7,7 +7,7 @@ const RootPage = () => {
     <div className="h-min">
       <NavBar />
       <main className="h-min">
-        <div className="sm:px-8 mt-16 sm:mt-32">
+        <div className="sm:px-8 mt-10 sm:mt-24">
           <Outlet />
         </div>
       </main>
