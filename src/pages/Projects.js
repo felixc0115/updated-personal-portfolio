@@ -1,5 +1,6 @@
 import ProjectCard from "../components/ProjectCard";
 import { projects } from "../data/customizablelnfo";
+import { useState } from "react";
 
 const Projects = () => {
   return (

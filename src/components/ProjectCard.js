@@ -3,8 +3,10 @@ const ProjectCard = ({ project }) => {
     <li className="group relative flex flex-col items-start">
       <figure>
         <img
+          width="600"
+          height="360"
           className="border-double border-8 border-stone-800"
-          src={require("../data/train-together-preview.png")}
+          src={require(`../data/${project.projectPic}.png`)}
           alt="app preview"
         />
       </figure>

@@ -12,25 +12,25 @@ const projects = [
     projectLink: "",
     projectStatus: "Deployed",
     technologies: ["React", "Express", "MongoDB", "Redux", "Tailwind"],
-    projectPic: "../data/train-together-preview.png",
+    projectPic: "train-together.cyclic.app_ (2)",
   },
   {
-    title: "Train Together",
+    title: "Miss Vietnam Florida",
     projectDescription:
-      "The TrainTogether application is a a full-stack web app aimed to improve one's physical well being through stretches and other modalities. The app allows a user to upload, explore, and save various exercise programs.",
+      "Collaborated with a developer to build a modern and responsive website using best practices for potential Miss Vietnam Florida pageant applicants. Miss Vietnam Florida was built using HTML and CSS",
     projectLink: "",
     projectStatus: "Deployed",
-    technologies: ["React", "Express", "MongoDB", "Redux", "Tailwind"],
-    projectPic: '"../data/train-together-preview.png"',
+    technologies: ["HTML", "CSS"],
+    projectPic: "missvietnamflorida.com_ (1)",
   },
   {
-    title: "Train Together",
+    title: "Portfolio Site",
     projectDescription:
-      "The TrainTogether application is a a full-stack web app aimed to improve one's physical well being through stretches and other modalities. The app allows a user to upload, explore, and save various exercise programs.",
+      "My portfolio site used to display information about me and my projects.",
     projectLink: "",
     projectStatus: "Deployed",
-    technologies: ["React", "Express", "MongoDB", "Redux", "Tailwind"],
-    projectPic: '"../data/train-together-preview.png"',
+    technologies: ["React", "HTML", "Tailwind"],
+    projectPic: "trainTogether2",
   },
 ];
 
