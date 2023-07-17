@@ -60,7 +60,7 @@ const NavBar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <span className="loading loading-infinity loading-lg"></span>{" "}
+        {/* <span className="loading loading-infinity loading-lg"></span>{" "} */}
       </div>
     </div>
   );

@@ -1,15 +1,13 @@
 const ProjectCard = ({ project }) => {
   return (
     <li className="group relative flex flex-col items-start">
-      <figure>
+      <div className="m-h-1">
         <img
-          width="600"
-          height="360"
-          className="border-double border-8 border-stone-800"
+          className="border-double border-8 border-stone-800 max-w-xs max-h-25"
           src={require(`../data/${project.projectPic}.png`)}
           alt="app preview"
         />
-      </figure>
+      </div>
       <div className="card-body p-1">
         <h2 className="card-title">
           {project.title}
@@ -20,7 +18,7 @@ const ProjectCard = ({ project }) => {
             <div className="badge badge-outline">{technology}</div>
           ))}
         </div>
-        <p className="text-xl">{project.projectDescription}</p>
+        <p className="text-lg">{project.projectDescription}</p>
       </div>
     </li>
   );

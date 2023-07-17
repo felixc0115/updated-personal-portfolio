@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 const Home = ({ personalInfo }) => {
   return (
     <div className="hero base-100">
-      <div className="hero-content flex-col lg:flex-row-reverse">
+      <div className="hero-content flex-col lg:flex-row-reverse mb-36">
         <img
           src={require("../data/IMG_1469.jpg")}
           alt="personal"

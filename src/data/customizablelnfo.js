@@ -12,7 +12,7 @@ const projects = [
     projectLink: "",
     projectStatus: "Deployed",
     technologies: ["React", "Express", "MongoDB", "Redux", "Tailwind"],
-    projectPic: "train-together.cyclic.app_ (2)",
+    projectPic: "train-together.cyclic.app_ (2) 4",
   },
   {
     title: "Miss Vietnam Florida",
@@ -21,7 +21,7 @@ const projects = [
     projectLink: "",
     projectStatus: "Deployed",
     technologies: ["HTML", "CSS"],
-    projectPic: "missvietnamflorida.com_ (1)",
+    projectPic: "missvietnamflorida.com_ (1) 3",
   },
   {
     title: "Portfolio Site",
@@ -30,7 +30,7 @@ const projects = [
     projectLink: "",
     projectStatus: "Deployed",
     technologies: ["React", "HTML", "Tailwind"],
-    projectPic: "trainTogether2",
+    projectPic: "profile-preview-2",
   },
 ];
 
