@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ca239341.css",
+    "main.js": "/static/js/main.262044ed.js",
+    "static/media/missvietnamflorida.com_ (2).png": "/static/media/missvietnamflorida.com_ (2).df36dd413c251ab38134.png",
+    "static/media/about-me-pic.jpeg": "/static/media/about-me-pic.54d7a51ae3bb0ba69122.jpeg",
+    "static/media/IMG_1469.jpg": "/static/media/IMG_1469.632a5d05ecc805b884a0.jpg",
+    "static/media/felix_chen_resume.pdf": "/static/media/felix_chen_resume.cd07f61ad95f074441e6.pdf",
+    "static/media/missvietnamflorida.com_ (1) 3.png": "/static/media/missvietnamflorida.com_ (1) 3.85e98fc3c99a1504c4f4.png",
+    "static/media/profile-preview-2.png": "/static/media/profile-preview-2.3aefe2128e0cc58536e2.png",
+    "static/media/train-together.cyclic.app_ (2) 4.png": "/static/media/train-together.cyclic.app_ (2) 4.157228123c5df16788fd.png",
+    "index.html": "/index.html",
+    "main.ca239341.css.map": "/static/css/main.ca239341.css.map",
+    "main.262044ed.js.map": "/static/js/main.262044ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca239341.css",
+    "static/js/main.262044ed.js"
+  ]
+}
