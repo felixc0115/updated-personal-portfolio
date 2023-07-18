@@ -26,7 +26,7 @@ const projects = [
   {
     title: "Portfolio Site",
     projectDescription:
-      "My portfolio site used to display information about me and my projects.",
+      "A fully responsive and modern portfolio site used to display information about me and my projects.",
     projectLink: "https://www.felixchen.co/",
     projectStatus: "Deployed",
     technologies: ["React", "HTML", "Tailwind"],
