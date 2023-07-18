@@ -1,9 +1,9 @@
 const ProjectCard = ({ project }) => {
   return (
-    <li className=" transition group-hover:fill-blue-500 group relative flex flex-col items-start hover:">
-      <div className=" transition group-hover:fill-blue-500">
+    <li className="group relative flex flex-col items-start">
+      <div>
         <img
-          className="border-double border-8 border-stone-800 max-w-xs max-h-25"
+          className="border-double border-8 border-stone-800"
           src={require(`../data/${project.projectPic}.png`)}
           alt="app preview"
         />
@@ -18,7 +18,7 @@ const ProjectCard = ({ project }) => {
             <div className="badge badge-outline">{technology}</div>
           ))}
         </div>
-        <p className="text-lg">
+        <p className="text-lg relative z-10 ">
           {project.projectDescription}{" "}
           <a className="link" href={project.projectLink}>
             view website

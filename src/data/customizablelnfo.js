@@ -8,7 +8,7 @@ const projects = [
   {
     title: "Train Together",
     projectDescription:
-      "The TrainTogether application is a a full-stack web app aimed to improve one's physical well being through stretches and other modalities. The app allows a user to upload, explore, and save various exercise programs.",
+      "The Train Together application is a a full-stack web app aimed to improve one's physical well being through stretches and other modalities. The app allows a user to upload, explore, and save various exercise programs.",
     projectLink: "https://train-together.cyclic.app/",
     projectStatus: "Deployed",
     technologies: ["React", "Express", "MongoDB", "Redux", "Tailwind"],

@@ -4,9 +4,9 @@ import { Outlet } from "react-router-dom";
 
 const RootPage = () => {
   return (
-    <div className="h-min">
+    <div className="">
       <NavBar />
-      <main className="h-min">
+      <main className="">
         <div className="sm:px-8 mt-10 sm:mt-18">
           <Outlet />
         </div>
