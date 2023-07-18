@@ -5,11 +5,11 @@ const About = () => {
         <div className="mx-auto max-w-2xl lg:max-w-5xl">
           <div className="grid grid-cols-1 gap-y-16 gap-x-7 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
             <div className="lg:pl-20">
-              <div className="max-w-xs px-2.5 lg:max-w-none">
+              <div>
                 <img
                   src={require("../data/about-me-pic.jpeg")}
                   alt="personal"
-                  className="max-w-sm rounded-lg shadow-2xl"
+                  className="max-w-xs sm:max-w-sm rounded-lg shadow-2xl mx-auto sm:mx-0"
                 />
               </div>
             </div>
