@@ -76,7 +76,7 @@ const About = () => {
                 <li className="flex mt-5">
                   <a
                     className="group flex text-sm font-medium text-zinc-800 transition hover:text-blue-500"
-                    href="https://www.linkedin.com/in/felix-chen-cpa/"
+                    href="https://github.com/felixc0115"
                   >
                     <svg
                       viewBox="0 0 24 24"
