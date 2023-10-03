@@ -12,7 +12,16 @@ const projects = [
     projectLink: "https://train-together.cyclic.app/",
     projectStatus: "Deployed",
     technologies: ["React", "Express", "MongoDB", "Redux", "Tailwind"],
-    projectPic: "train-together.cyclic.app_ (2) 4",
+    projectPic: "tt",
+  },
+  {
+    title: "Woof & Whiskers",
+    projectDescription:
+      "The Woof & Whiskers application is a a full-stack web app aimed to match adoptable pets with interested users. The app allows a user to find and save various pets and learn more about them (e.g., breed, color, gender, etc.).",
+    projectLink: "https://github.com/felixc0115/woof-whiskers",
+    projectStatus: "Undeployed",
+    technologies: ["React", "Redux", "Django", "PostgreSQL", "MUI", "Docker"],
+    projectPic: "woof&whiskers",
   },
   {
     title: "Miss Vietnam Florida",
@@ -21,16 +30,7 @@ const projects = [
     projectLink: "https://missvietnamflorida.com/",
     projectStatus: "Deployed",
     technologies: ["HTML", "CSS"],
-    projectPic: "missvietnamflorida.com_ (1) 3",
-  },
-  {
-    title: "Portfolio Site",
-    projectDescription:
-      "A fully responsive and modern portfolio site used to display information about me and my projects.",
-    projectLink: "https://www.felixchen.co/",
-    projectStatus: "Deployed",
-    technologies: ["React", "HTML", "Tailwind"],
-    projectPic: "profile-preview-2",
+    projectPic: "mv",
   },
 ];
 
