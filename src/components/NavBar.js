@@ -54,9 +54,9 @@ const NavBar = () => {
           <li>
             <NavLink to="projects">Projects</NavLink>
           </li>
-          <li>
+          {/* <li>
             <NavLink to="resume">Resume</NavLink>
-          </li>
+          </li> */}
         </ul>
       </div>
       <div className="navbar-end">
